@@ -6,3 +6,9 @@ RewriteRule ^(.*)$ http://andreapaci.me/$1 [L,R=301]
 
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Blocca cartella #
+<folder /case/*>
+order deny,allow
+deny from all
+</folder>
