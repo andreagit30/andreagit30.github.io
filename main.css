@@ -258,6 +258,11 @@ section h4:after {
   padding: 0;
 }
 
+#experiences ul {
+  margin: 0;
+  padding: 0;
+}
+
 .featuresList {
   list-style-type: none;
 }
