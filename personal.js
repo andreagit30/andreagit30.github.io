@@ -2,7 +2,7 @@
     GLOBALS 
 -------------------------*/
 var sections = [
-		{	sentence: " making cool stuff on Findomestic",
+		{	sentence: " making cool stuff at BNP Paribas",
 		},
 		{	sentence: " planning his next trip",
 		},
