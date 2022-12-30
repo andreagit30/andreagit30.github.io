@@ -51,14 +51,14 @@ a {
 }
 
 h3 {
-  font-size: 2.6vw;
+  font-size: 2vw;
   line-height: 1.2;
-  margin-bottom: 8vh;
+  margin-bottom: 5vh;
 }
 
 h4 {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 13px;
+  font-size: 1.5vh;
   text-transform: uppercase;
 }
 
@@ -112,15 +112,21 @@ font-weight: 900;
   color: #46200A;
 }
 
+.about-text {
+  color: white;
+  margin-top: 2vh;
+  font-size: 1.8vh;
+}
+
 #brName {
   display: none;
 }
 
 section {
-  margin-bottom: 16vh;
+  margin-bottom: 10vh;
 }
 section h4 {
-  margin-bottom: 20px;
+  margin-bottom: -1vh;
   letter-spacing: 1px;
   font-weight: 900;
 }
@@ -284,52 +290,12 @@ section h4:after {
 
 .featureTitle {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 1.8vh;
   letter-spacing: .75px;
 }
 
 .featureSubtitle {
-  font-size: 14px;
-  margin-top: 5px;
-  letter-spacing: .75px;
-  font-weight: 400;
-}
-
-/* -------------------------------
-		 CONFERENCES
-----------------------------------*/
-#conferences ul {
-  margin: 0;
-  padding: 0;
-}
-
-#experiences ul {
-  margin: 0;
-  padding: 0;
-}
-
-.featuresList {
-  list-style-type: none;
-}
-.featuresList li {
-  float: left;
-  padding-right: 2%;
-  margin-bottom: 30px;
-  width: 25%;
-}
-.featuresList li.last {
-  float: right;
-  padding-right: 0;
-}
-
-.featureTitle {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  letter-spacing: .75px;
-}
-
-.featureSubtitle {
-  font-size: 14px;
+  font-size: 1.3vh;
   margin-top: 5px;
   letter-spacing: .75px;
   font-weight: 400;
@@ -703,6 +669,10 @@ section h4:after {
 
   .jstext {
     padding-right: 0px;
+  }
+
+  .featureSubtitle {
+    font-size: 3.5vw;
   }
 }
 @media all and (max-width: 468px) {
